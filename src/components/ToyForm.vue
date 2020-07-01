@@ -9,7 +9,7 @@
         <h1 class="text-center mb-5">Otto Klaus Toys</h1>
           <v-text-field label="Codigo" type="text" :value="currentToy.data.code" @input="updateCode" outlined color="pink darken-1"/>
           <v-text-field label="Nombre" type="text" :value="currentToy.data.name" @input="updateName" outlined color="pink darken-1"/>
-          <v-text-field label="Stock" suffix="unidades" :value="currentToy.data.stock" @input="updateStock" outlined color="pink darken-1"/>
+          <v-text-field label="Stock" suffix="Unidades" :value="currentToy.data.stock" @input="updateStock" outlined color="pink darken-1"/>
           <v-text-field label="Precio" prefix="$" :value="currentToy.data.price" @input="updatePrice" outlined color="pink darken-1"/>    
         <v-divider></v-divider>
         <v-card-actions>

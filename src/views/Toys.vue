@@ -6,7 +6,7 @@
           <v-container>
             <v-row>
               <v-col cols="12" sm="10" md="8"  class="mx-auto">
-                <div class="text-center mt-8 mb-10">
+                <div class="text-center mt-15 mb-15">
                   <v-btn color="pink darken-1" dark @click="displayToyForm">Agregar Nuevo Juguete</v-btn>
                 </div>
                 <v-overlay :value="loading">
